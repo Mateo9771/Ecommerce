@@ -1,0 +1,37 @@
+.footerFooter {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #9c9090;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+    flex-wrap: wrap;
+    color: #776d6d;
+    .redesFooter{
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .optionFooter{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        a{
+            color: #776d6d;
+        }
+    }
+    .gpsFooter{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+  }
+  .footerFooter.visible {
+    bottom: 0; /* Visible when the user scrolls to the bottom */
+  }

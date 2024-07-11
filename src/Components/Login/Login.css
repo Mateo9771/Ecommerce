@@ -1,0 +1,30 @@
+.loginContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    .CardLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 40%;
+    border-style: hidden;
+    border-radius: 20px;
+    border: solid 1px black;
+        input{
+            width: 20rem;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+        }
+        button{
+            background-color: #333;
+            color: #fff;
+            width: 7rem;
+            border-radius: 10px;
+        }
+     }
+    
+}

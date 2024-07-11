@@ -1,0 +1,36 @@
+.ContainerItemDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 28rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 0 12px 17px rgba(16, 54, 223, 0.664);
+    .HeaderItemDetail{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .PictureItemDetail{
+        height: 12rem;
+        width: 18rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 12rem;
+            width: 90%;
+        }
+    }
+    .SectionItemDetail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}

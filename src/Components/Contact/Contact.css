@@ -1,0 +1,24 @@
+.contactContainer{
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    input{
+        border-radius: 10px;
+        width: 20rem;
+    }
+    textarea{
+        border-radius: 10px;
+        width: 20rem;
+        height: 10rem;
+    }
+    button{
+        background-color: #333;
+        color: #fff;
+        width: 7rem;
+        height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
