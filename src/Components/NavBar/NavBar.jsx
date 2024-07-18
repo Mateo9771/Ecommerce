@@ -18,10 +18,10 @@ const Navbar = () => {
       </div>
 
       <div className='categoryNavBar'>
-      <Link to='/'>Inicio</Link>
-          <Link to='/about'>Quienes somos</Link>
-          <Link to='/contact'>Contacto</Link>
-          <Link to='/login'>Inicio sesión</Link>
+      <Link className='btnCategory' to='/'>Inicio</Link>
+          <Link className='btnCategory' to='/about'>Quienes somos</Link>
+          <Link className='btnCategory' to='/contact'>Contacto</Link>
+          <Link className='btnCategory' to='/login'>Inicio sesión</Link>
       </div>
 
       <div>

@@ -6,7 +6,7 @@ import { SlSocialYoutube } from "react-icons/sl";
 
 const Footer = () => {
   return (
-    <footer className='footerFooter'>
+    <footer className='footerFooter col-12'>
 
         <div className='redesFooter'>
         <p>Nuestras redes sociales:</p>
